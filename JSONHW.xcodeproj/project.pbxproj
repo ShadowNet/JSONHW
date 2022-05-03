@@ -16,6 +16,9 @@
 		029C17362820054A0031AF64 /* JSONHWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029C17352820054A0031AF64 /* JSONHWTests.swift */; };
 		029C17402820054A0031AF64 /* JSONHWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029C173F2820054A0031AF64 /* JSONHWUITests.swift */; };
 		029C17422820054A0031AF64 /* JSONHWUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029C17412820054A0031AF64 /* JSONHWUITestsLaunchTests.swift */; };
+		029C174F282008AF0031AF64 /* Dragon.Json in Resources */ = {isa = PBXBuildFile; fileRef = 029C174E282008AF0031AF64 /* Dragon.Json */; };
+		029C175128200A1A0031AF64 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029C175028200A1A0031AF64 /* NetworkManager.swift */; };
+		029C17532820CD5B0031AF64 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029C17522820CD5B0031AF64 /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		029C173B2820054A0031AF64 /* JSONHWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONHWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		029C173F2820054A0031AF64 /* JSONHWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHWUITests.swift; sourceTree = "<group>"; };
 		029C17412820054A0031AF64 /* JSONHWUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHWUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		029C174E282008AF0031AF64 /* Dragon.Json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Dragon.Json; sourceTree = "<group>"; };
+		029C175028200A1A0031AF64 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		029C17522820CD5B0031AF64 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		029C1712282005470031AF64 = {
 			isa = PBXGroup;
 			children = (
+				029C174E282008AF0031AF64 /* Dragon.Json */,
 				029C171D282005470031AF64 /* JSONHW */,
 				029C17342820054A0031AF64 /* JSONHWTests */,
 				029C173E2820054A0031AF64 /* JSONHWUITests */,
@@ -101,7 +108,9 @@
 			children = (
 				029C171E282005470031AF64 /* AppDelegate.swift */,
 				029C1720282005470031AF64 /* SceneDelegate.swift */,
+				029C175028200A1A0031AF64 /* NetworkManager.swift */,
 				029C1722282005470031AF64 /* ViewController.swift */,
+				029C17522820CD5B0031AF64 /* Pokemon.swift */,
 				029C1724282005470031AF64 /* Main.storyboard */,
 				029C17272820054A0031AF64 /* Assets.xcassets */,
 				029C17292820054A0031AF64 /* LaunchScreen.storyboard */,
@@ -233,6 +242,7 @@
 			files = (
 				029C172B2820054A0031AF64 /* LaunchScreen.storyboard in Resources */,
 				029C17282820054A0031AF64 /* Assets.xcassets in Resources */,
+				029C174F282008AF0031AF64 /* Dragon.Json in Resources */,
 				029C1726282005470031AF64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				029C17532820CD5B0031AF64 /* Pokemon.swift in Sources */,
+				029C175128200A1A0031AF64 /* NetworkManager.swift in Sources */,
 				029C1723282005470031AF64 /* ViewController.swift in Sources */,
 				029C171F282005470031AF64 /* AppDelegate.swift in Sources */,
 				029C1721282005470031AF64 /* SceneDelegate.swift in Sources */,
